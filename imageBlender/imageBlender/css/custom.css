@@ -1,0 +1,130 @@
+#top{
+    position:absolute;
+    width:900;
+    height:900;
+    z-index:1;
+    top:0px;
+    left:0px;
+    mix-blend-mode: normal;
+    opacity: 1;
+
+}
+
+
+
+
+
+
+#test {
+    z-index: -20;
+    position: absolute;
+    left: 1200px;
+    background-color: blue;
+
+}
+
+#bottom{
+    position:absolute;
+    width:900;
+    height:900;
+    z-index:-1;
+    top:0px;
+    left:0px;
+    opacity: 1;
+    mix-blend-mode: normal;
+
+}
+
+#previewTop {
+    width: 100px;
+    height: 100px;
+}
+
+#previewBottom {
+    width: 100px;
+    height: 100px;
+}
+
+#backgroundSquare {
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    z-index: -5;
+    top:0px;
+    left:0px;
+    background-color: blue;
+}
+
+
+
+#btn-randomize {
+    width: 200px;
+    height: 100px;
+    font-size: 18pt;
+
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#img1 {
+    mix-blend-mode: normal;
+}
+
+#img2 {
+    mix-blend-mode: normal;
+}
+
+.controls{
+    position: absolute;
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(160, 160, 160);
+    padding: 20px;
+    left:920px;
+    top:5%;
+    right: 0%;
+    height: 700px;
+    width: 580px;
+    overflow-y:auto;
+    background-color:rgb(226, 226, 226);
+   
+    
+}
+
+.slider {
+    width:500px;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    vertical-align: middle;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+      width: 10px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #888; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; 
+    }
